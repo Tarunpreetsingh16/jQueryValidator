@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="eu">
+    <head>
+        <title>Validation form</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <main>
+            <h1>Register</h1>
+            <form id="form" onsubmit="return false" action="blank">
+                <fieldset>
+                    <label for="name">Name:</label> 
+                    <input type="text" id="name" name="name" placeholder="John"> 
+                </fieldset>
+                <fieldset>
+                    <label   for="email">Email:</label> 
+                    <input type="email" id="email" name="email" placeholder="john@abc.com"> 
+                </fieldset>
+                <fieldset>
+                    <label   for="password">Password:</label> 
+                    <input type="password" id="password" name="password" placeholder="&bull;&bull;&bull;&bull;"> 
+                </fieldset>
+                <fieldset>
+                    <label   for="confPassword">Confirm Password:</label> 
+                    <input type="password" id="confPassword" name="confPassword" placeholder="&bull;&bull;&bull;&bull;"> 
+                </fieldset>
+                <fieldset>
+                    <label   for="tel">Telephone number:</label> 
+                    <input type="tel" id="tel" name="tel" placeholder="+1 (417) 251-1263"> 
+                </fieldset>
+                <fieldset>
+                    <label   for="address">Web site address:</label> 
+                    <input type="url" id="address" name="address" placeholder="http://www.abc.com"> 
+                </fieldset>
+                <div id="buttons">
+                    <input type="submit" value="Submit" id="submit">
+                    <input type="reset" value="Reset" id="reset">
+                </div>
+            </form>
+        </main>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

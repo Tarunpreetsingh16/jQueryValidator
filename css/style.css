@@ -1,0 +1,82 @@
+*{   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    
+    font-size: 62.5%;
+}
+
+h1{
+    text-align: center;
+    padding: 2rem;
+    background-color: black;
+    color:white;
+    letter-spacing: 0.1rem;
+}
+
+form{
+    margin:2rem auto;
+    font-size: 1rem;
+    width: 25rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    border: 0.2rem solid black;
+    text-align: center;
+    box-shadow: 0.5rem 0.5rem 0.5rem grey;
+}
+
+
+input[type="text"],
+input[type="password"],
+input[type="tel"],
+input[type="email"],
+input[type="url"]
+{    
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid black;
+    margin: 0rem auto;
+    display: block;
+    height: 2rem;
+    width:15rem; ;
+}
+#buttons{
+    text-align: center;
+}
+#submit,#reset{
+    padding:0.5rem 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    border: 0.1rem solid black;
+    font-weight: bold;
+    box-shadow: 0.5rem 0.5rem 2rem black;
+}
+
+#submit{
+    background-color:#52DE97;
+}
+#reset{
+    background-color: red
+}
+#submit:hover,
+#reset:hover{
+    cursor: pointer;
+}
+#message{
+    font-weight: 700;
+    color: firebrick;
+}
+.error{
+    color: #ff0000;
+    font-size: 0.8rem;
+    font-weight: bold;
+    display: block;
+}
+fieldset{
+    margin-bottom: 1rem;
+    border: 0;
+}
